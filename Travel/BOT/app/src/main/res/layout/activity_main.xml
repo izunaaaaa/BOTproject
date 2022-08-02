@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.hugeterry.coordinatortablayout.CoordinatorTabLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator_tab_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:tabTextColor="#bc8f8f"
+    app:tabIndicatorColor="#8b4513">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FA8072"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+</cn.hugeterry.coordinatortablayout.CoordinatorTabLayout>
